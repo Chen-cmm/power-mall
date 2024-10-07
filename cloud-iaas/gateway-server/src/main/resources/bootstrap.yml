@@ -15,9 +15,12 @@ spring:
         group: ${spring.cloud.nacos.discovery.group}
         prefix: ${spring.application.name}
         file-extension: yml
+    gateway:
+      white: #自定义网关拦截的白名单
+        allow-urls:
+          - /doLogin  #该路径为项目登录的白名单
   profiles:
     active: dev #多环境配置
-
 
 ###########################nacos远程配置文件#######################################
 #server:
@@ -32,3 +35,7 @@ spring:
 #    host: 192.168.168.128
 #    port: 6380
 #    password: 123456
+#gateway
+#white: #自定义网关拦截的白名单
+#  allow-urls:
+#    - /doLogin  #该路径为项目登录的白名单

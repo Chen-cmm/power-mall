@@ -30,6 +30,8 @@
         <druid.version>1.2.18</druid.version>
         <hutool.version>5.8.2</hutool.version>
         <springfox.version>3.0.0</springfox.version>
+        <common-base.version>1.0-SNAPSHOT</common-base.version>
+        <fastjson.version>1.2.80</fastjson.version>
     </properties>
     <!--父工程必须遵循的两点要求：1.packaging标签必须设置为pom  2.src文件夹删掉-->
     <packaging>pom</packaging>
@@ -102,6 +104,19 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-boot-starter</artifactId>
                 <version>${springfox.version}</version>
+            </dependency>
+
+            <!--        公共基础模块依赖-->
+            <dependency>
+                <groupId>com.powernode</groupId>
+                <artifactId>common-base</artifactId>
+                <version>${common-base.version}</version>
+            </dependency>
+            <!--        fastjson-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
