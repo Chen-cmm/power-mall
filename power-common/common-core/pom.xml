@@ -80,13 +80,17 @@
 <!--        </dependency>-->
 <!--        公共基础模块  有上面这两个依赖-->
         <dependency>
-            <groupId>com.powernode</groupId>
+            <groupId>org.powernode</groupId>
             <artifactId>common-base</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
         </dependency>
     </dependencies>
 </project>

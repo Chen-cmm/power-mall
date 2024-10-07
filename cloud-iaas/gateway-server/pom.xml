@@ -52,15 +52,20 @@
 <!--            <version>1.18.34</version>-->
 <!--        </dependency>-->
         <dependency>
-            <groupId>com.powernode</groupId>
+            <groupId>org.powernode</groupId>
             <artifactId>common-base</artifactId>
-<!--            gateway中只需要路由转发，不需要依赖security，所以要排除掉-->
+            <version>1.0-SNAPSHOT</version>
+            <!--            gateway中只需要路由转发，不需要依赖security，所以要排除掉-->
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-security</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
     </dependencies>
     <build>

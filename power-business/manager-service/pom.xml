@@ -29,8 +29,15 @@
         </dependency>
 <!--        公共核心模块-->
         <dependency>
-            <groupId>com.powernode</groupId>
+            <groupId>org.powernode</groupId>
             <artifactId>common-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.powernode</groupId>
+            <artifactId>common-base</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

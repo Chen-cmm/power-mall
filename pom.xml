@@ -109,7 +109,7 @@
 
             <!--        公共基础模块依赖-->
             <dependency>
-                <groupId>com.powernode</groupId>
+                <groupId>org.powernode</groupId>
                 <artifactId>common-base</artifactId>
                 <version>${common-base.version}</version>
             </dependency>
@@ -121,7 +121,7 @@
             </dependency>
 <!--            公共核心模块依赖-->
             <dependency>
-                <groupId>com.powernode</groupId>
+                <groupId>org.powernode</groupId>
                 <artifactId>common-core</artifactId>
                 <version>${common-core.version}</version>
             </dependency>
